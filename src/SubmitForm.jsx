@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
-import RequestFormButton from './RequestFormButton'
+import React, { useContext } from "react"
+import RequestFormButton from "./RequestFormButton"
 
 export default function SubmitForm() {
   return (
-    <div style={{display: "flex"}}>
-      <form style={{display: "inline-block"}}>
+    <div style={{ display: "flex" }}>
+      <form style={{ display: "inline-block" }}>
         <label>
           Name of Comic:
           <input type="text" />
@@ -19,8 +19,7 @@ export default function SubmitForm() {
         </label>
 
         <RequestFormButton />
-      
-      </form> 
+      </form>
     </div>
-  );
+  )
 }
